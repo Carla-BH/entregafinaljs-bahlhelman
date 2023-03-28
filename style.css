@@ -1,0 +1,91 @@
+body{
+    background-color: #beac0b;
+}
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: rgb(170, 119, 8);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    }
+.nav-inicio li{
+    list-style: none;    
+}
+
+.nav-palabras{
+    text-decoration: none;
+    font-size: 25px;
+    color:azure;
+    padding: 10px;
+}
+    .nav-palabras:hover{
+        color:rgba(6, 6, 6, 0.164);
+}
+    .button{
+        background-color: rgb(170, 119, 8);
+        color: #0f0f0f;
+        height: 36px;
+        padding: 0 16px;
+        font-size: 12px;
+        font-weight: bold;
+        border: none;
+        border-radius: 12px;
+        cursor: pointer;
+        
+}
+.button:hover{
+        background-color: #beac0b;
+        color: #9b0404;
+}
+.card{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(56, 55, 55, 0.2);
+    padding: 5px;
+    border-radius: 1rem;
+}
+.carrito.container{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(45, 45, 45, 0.2);
+    padding: 5px;
+    border-radius: 1rem;
+}
+.cardCarrito{
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        box-shadow: 0 4px 8px rgba(9, 9, 9, 0.2);
+        padding: 5px;
+        width: 450px;
+}
+.container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+}
+#listProductos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+}
+#total{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 4px 8px rgb(68 68 68 / 20%);
+        padding: 5px;
+        border-radius: 1rem;
+        width: 450px;
+    }
